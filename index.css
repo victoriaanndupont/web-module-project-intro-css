@@ -1,0 +1,241 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Start CSS */
+body {
+  border-style: solid;
+  margin-left: 100px;
+  margin-right: 100px;
+  text-align: center;
+}
+.firstColor {
+  border-style: solid;
+  background-color: #ff764e;
+  border-radius: 25px;
+  padding: 20px;
+  width: 100px;
+  height: 30px;
+  border: 2px solid;
+  color: white;
+}
+.firstColor:hover {
+  background-color: green;
+}
+.secondColor {
+  color: white;
+  border-style: solid;
+  background-color: #5ed3eb;
+  border-radius: 25px;
+  padding: 20px;
+  width: 100px;
+  height: 30px;
+  border: 2px solid;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.secondColor:hover {
+  background-color: green;
+}
+.thirdColor {
+  border-style: solid;
+  background-color: #ffcd69;
+  border-radius: 25px;
+  padding: 20px;
+  width: 100px;
+  height: 30px;
+  border: 2px solid;
+  color: white;
+}
+.thirdColor:hover {
+  background-color: green;
+}
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10%;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+.firstimg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 0 5% -20%;
+}
+.firstimg img {
+  border-radius: 50%;
+  height: 10%;
+  width: 20%;
+  margin: 0 -20% 0 -20%;
+}
+.box {
+  margin: 0 0 0 -30%;
+}
+h1 {
+  font-family: chelsea market;
+}
+.h1txt {
+  font-family: roboto mono;
+}
+.mainbody {
+  background-color: #ddb9a3;
+  font-family: roboto mono;
+  font-size: 25px;
+}
+.fire {
+  height: 200px;
+}
+.truck {
+  height: 200px;
+}
+.firepara {
+  width: 40%;
+}
+.p3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footimg {
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+.footimg img {
+  width: 100%;
+  margin: 0 0 -25% 0;
+}
